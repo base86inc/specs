@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make": "livingdoc feature-folder ./features --output ./docs/ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base86inc/specs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/base86inc/specs/issues"
+  },
+  "homepage": "https://github.com/base86inc/specs#readme"
+}
