@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "make": "livingdoc feature-folder ./features --output ./docs/index.html "
+    "make": "livingdoc feature-folder ./features --output ./docs/index.html --title base86 --project-name Features"
   },
   "repository": {
     "type": "git",
