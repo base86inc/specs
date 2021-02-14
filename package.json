@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "make": "livingdoc feature-folder ./features --output ./docs/ "
+    "make": "livingdoc feature-folder ./features --output ./docs/index.html "
   },
   "repository": {
     "type": "git",
