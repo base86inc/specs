@@ -3,7 +3,7 @@ Feature: 03 *TODO* Manufacturer’s name Edit for Admin
 
 	Background: Admin attempt to edit Manufacturer name
 		Given an Admin on Manufacturers page.
-		And the Admin selected a Manufacturer from the list.
+		And tAdmin selected a Manufacturer from the list.
 		And Admin enters 'Edit Name' mode.
 		And Admin edited name.
 		And Admin clicks Save.
@@ -14,5 +14,5 @@ Feature: 03 *TODO* Manufacturer’s name Edit for Admin
 
 	Scenario: Name is NOT unique
 		Given Manufacturer’s name is found in DB (case insensitive).
-		Then Admin got error message that the name is duplicate.
+		Then Admin got error message that the name is a duplicate.
 		And Manufacturer name is not updated in DB.
